@@ -1,16 +1,22 @@
 import React from 'react';
+import Avatar from '../../video/Avatar.png'
 import { useNavigate } from "react-router-dom";
-import {Container} from './styles';
+import {Container, ContImg, ContCard, Name, Button} from './styles';
 import { goToProfile ,goToProjects } from '../../coodinator/Coordinator';
 
 const Home = () => {
   const navigate = useNavigate()
-
-
   return (
     <Container>
-      <button onClick={() => goToProfile(navigate)}>Perfil</button>
-      <button onClick={() => goToProjects(navigate)}>Projetos</button>
+      <ContImg>
+        <img onClick={() => goToProfile(navigate)} src={Avatar} />
+      </ContImg>
+      <ContCard>
+        <Name><strong>DANIEL NASCIMENTO</strong></Name>
+        <Button>
+          <button onClick={() => goToProjects(navigate)}>Projetos</button>
+        </Button>
+      </ContCard>
     </Container>
   )
 }
