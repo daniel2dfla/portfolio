@@ -1,15 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  
+font-family: 'EB Garamond', serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
-  
+  background-image: url("./video/Circuit.gif");
+  width: 100vw;
+  height: 100vh;
+  background-color: #cccccc;
+  background-repeat: initial;
+  background-size: 100%;
+  background-size: cover;
+  color: #cccccc;
+ 
+
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  
+font-family: 'EB Garamond', serif;
+
 }
