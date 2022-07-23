@@ -1,14 +1,25 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import { goToHome } from '../../coodinator/Coordinator'
 import { Container } from './styles'
+import Navbar from '../../components/MenuHamburguer/Navbar'
 
 const Profile = () => {
-    const navigate = useNavigate()
   return (
-    <Container>
-        <button onClick={() => goToHome(navigate)}>Home</button>
-    </Container>
+    <>
+      <Navbar />
+      <br/>
+      <Container>
+        <h2>Perfil</h2>
+        <p>Sou um entusiasta por inovação e
+        tecnologia, busco uma oportunidade em
+        uma empresa para poder compartilhar
+        ideias, conquistas e trabalhar em um
+        ambiente saudável, onde eu possa me
+        desenvolver pessoalmente,
+        profissionalmente e ajudar com o
+        crescimento da empresa.
+        </p>
+      </Container>
+    </>
   )
 }
 

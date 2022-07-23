@@ -1,13 +1,13 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import { goToHome } from '../../coodinator/Coordinator'
-import { Container } from './styles'
+import { Container, ContHead } from './styles'
+import Navbar from '../../components/MenuHamburguer/Navbar'
+import Carousel from '../../components/Carousel'
 
 const Projects = () => {
-    const navigate = useNavigate()
   return (
     <Container>
-        <button onClick={() => goToHome(navigate)}>Home</button>
+        <Navbar />
+      <Carousel />
     </Container>
   )
 }

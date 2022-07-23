@@ -9,3 +9,11 @@ export const goToProfile = (navigate) => {
 export const goToProjects = (navigate) => {
     navigate("/projects")
 }
+
+export const goToContacts = (navigate) => {
+    navigate("/contacts")
+}
+
+export const goToCv = (navigate) => {
+    navigate("/cv")
+}
