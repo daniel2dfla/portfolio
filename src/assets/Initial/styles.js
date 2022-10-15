@@ -29,7 +29,7 @@ left: 7em;
 h2{
     color: #FFF;
     em{
-        color:#000;;
+        color:#FF8C00;;
     }
 }
 
