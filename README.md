@@ -6,7 +6,7 @@
 
 Portfólio particular criado com a finalidade de apresentar alguns projetos e tecnonolias.
 
-[link do surge](https://rustic-paint.surge.sh)
+[link do surge](https://robust-ladybug.surge.sh)
 
 <p align="center">
   <img src="https://github.com/daniel2dfla/portfolio/blob/main/src/img/portfolioCelular.jpg" width="131"  alt="accessibility text">
