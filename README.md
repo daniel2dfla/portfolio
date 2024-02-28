@@ -1,4 +1,4 @@
-
+## Este portfólio está absoleto, novo portfólio está em construção com novos projetos e desafios em backend / FullStack
 
 <div align=center>
   <h1> Bem vindo ao meu portfólio. </h1>
