@@ -1,4 +1,4 @@
-### Este portfólio está absoleto, visto que estou cursando DevOps e seguindo uma nova trilha , porém mostra um pouco do que fiz como desenvolvedor Front-End. Em breve novo portfólio DevOps...
+
 
 <div align=center>
   <h1> Bem vindo ao meu portfólio. </h1>
